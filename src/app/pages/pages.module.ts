@@ -7,6 +7,11 @@ import { DashboardModule } from './dashboard/dashboard.module';
 import { ECommerceModule } from './e-commerce/e-commerce.module';
 import { PagesRoutingModule } from './pages-routing.module';
 import { MiscellaneousModule } from './miscellaneous/miscellaneous.module';
+import { AboutComponent } from './about/about.component';
+import { BlogComponent } from './blog/blog.component';
+import { ContactusComponent } from './contactus/contactus.component';
+import { EventsComponent } from './events/events.component';
+import { GalleryComponent } from './gallery/gallery.component';
 
 @NgModule({
   imports: [
@@ -19,6 +24,11 @@ import { MiscellaneousModule } from './miscellaneous/miscellaneous.module';
   ],
   declarations: [
     PagesComponent,
+    AboutComponent,
+    BlogComponent,
+    ContactusComponent,
+    EventsComponent,
+    GalleryComponent,
   ],
 })
 export class PagesModule {
